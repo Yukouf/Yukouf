@@ -1,25 +1,48 @@
-<!-- Glitchy Typing Header -->
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=00FFF7&width=500&lines=👾+Welcome+to+my+Cyberpunk+Zone;⚡+Coding+in+Neon+Lights;💀+Pentesting+the+Digital+Void;🌌+Glitching+Reality+One+Bug+at+a+Time" alt="Typing SVG" />
-  </a>
-</h1>
+<!-- Banner Start -->
+![Banner](banner.png)
+<!-- Banner End -->
 
-<!-- Neon Hacker GIF -->
-<img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" alt="Cyberpunk Hacker" align="right" width="300"/>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?size=24&duration=4000&color=36BCF7&center=true&vCenter=true&multiline=true&width=600&height=50&lines=%F0%9F%9A%80+DevOps+explorant+MLOps%2C+NetDevOps%2C+DevSecOps" alt="Typing SVG" />
+  </a>
+</p>
+
+<!-- 🛠️ Technologies et outils -->
+<h3 align="center">⚙️ Technologies & Outils :</h3>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=kubernetes,docker,aws,gcp,azure,python,ansible,terraform,linux,nginx,git,github,vim,jenkins,postgres,redis,tensorflow,pytorch,prometheus,grafana,cloudflare" />
+  </a>
+</p>
 
 ---
 
-### 🧪 Technologies and Tools
+### 📊 GitHub Stats
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Python" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Linux" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
-  <img align="center" alt="Bash" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg">
-  <img align="center" alt="Docker" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
-  <img align="center" alt="Vscode" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
-  <img align="center" alt="Git" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-  <img align="center" alt="Kali" height="35" width="40" src="https://www.kali.org/images/favicon.png">
+<div align="center">
+  <a href="https://github.com/Yukouf">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Yukouf&theme=gotham&show_icons=true&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yukouf&layout=compact&theme=gotham"/>
+    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Yukouf&theme=gotham"/>
+  </a>
+</div>
+
+---
+
+### 🧠 Fun Fact
+
+> "The only way to escape the matrix is to rewrite it yourself."
+
+---
+
+### ☕ Contact (optionnel si tu veux l’ajouter)
+
+<div align="center">
+  <a href="mailto:tonmail@example.com"><img src="https://img.shields.io/badge/Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/tonlinkedin"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</div>s/favicon.png">
 </div><br>
 
 ---
