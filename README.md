@@ -3,6 +3,11 @@
 </p>
 
 
+<p align="center">
+  <img src="https://media.giphy.com/media/l3vR0GCVk2iHrW8Ew/giphy.gif" width="600"/>
+</p>
+
+
 
   ![Yukouf's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yukouf&show_icons=true&theme=radical&bg_color=0d1117&title_color=ff00ff&icon_color=00ffff&text_color=ffffff)
 
