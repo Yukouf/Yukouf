@@ -15,6 +15,9 @@
   <img src="https://skillicons.dev/icons?i=python,js,flask,html,css,linux,kali,docker&theme=dark" />
 </p>
 
+<p align="center">
+  <img src="https://media.giphy.com/media/l3vR0GCVk2iHrW8Ew/giphy.gif" width="600"/>
+</p>
 
 
   
