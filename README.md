@@ -31,7 +31,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" width="45" height="45"/>   
 </p>
 
-                                                                ![Yukouf's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yukouf&show_icons=true&theme=radical) 
+  ![Yukouf's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yukouf&show_icons=true&theme=radical) 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
