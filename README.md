@@ -6,6 +6,11 @@
 
   ![Yukouf's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yukouf&show_icons=true&theme=radical&bg_color=0d1117&title_color=ff00ff&icon_color=00ffff&text_color=ffffff)
 
+  <p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,flask,html,css,linux,kali,docker&theme=dark" />
+</p>
+
+
 
   
 <p align="center">
