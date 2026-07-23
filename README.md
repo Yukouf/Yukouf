@@ -2,7 +2,7 @@
 <!-- Repo public nommé exactement "Yukouf" -> ce README s'affiche en haut de ton profil -->
 
 <h1 align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0c10,50:8a7f00,100:fcee0a&height=200&section=header&text=YUKOUF&fontColor=fcee0a&fontSize=70&fontAlignY=36&animation=fadeIn&desc=Security%20Operations%20%7C%20SIEM%20%7C%20AI%20Automation&descAlignY=56&descSize=16" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0c10,100:161b22&height=200&section=header&text=YUKOUF&fontColor=fcee0a&fontSize=70&fontAlignY=36&stroke=00f0ff&strokeWidth=2&animation=fadeIn&desc=Security%20Operations%20%7C%20SIEM%20%7C%20AI%20Automation&descAlignY=56&descSize=16" />
 </h1>
 
 <p align="center">
