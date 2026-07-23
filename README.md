@@ -84,7 +84,3 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,45:00F0FF,55:FCEE0A,100:000000&height=3"/>
 </p>
-
-<p align="center">
-  <sub><code>// Contact Me</code></sub>
-</p>
