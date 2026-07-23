@@ -53,7 +53,7 @@
 <td width="50%" valign="top">
 
 ### `⌁ SOC STACK INTEGRATION`
-> Wazuh → **TheHive 5.x** + Suricata IDS
+> Wazuh + Suricata IDS + AI
 > Règles custom validées end-to-end
 
 `⟨ THEHIVE ⟩` `⟨ SURICATA ⟩`
@@ -78,7 +78,6 @@
 </p>
 
 <p align="center">
-  <a href="https://hackerone.com/yukouf"><img src="https://img.shields.io/badge/HACKERONE-000000?style=for-the-badge&logo=hackerone&logoColor=FCEE0A"/></a>
   <a href="https://www.linkedin.com/in/youssefguerniou"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00F0FF"/></a>
 </p>
 
