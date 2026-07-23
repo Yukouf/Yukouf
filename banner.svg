@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <style>
+      .base { font-family: 'Segoe UI Black', 'Arial Black', sans-serif; font-weight: 900; letter-spacing: 8px; }
+      .mono { font-family: 'Consolas', 'Courier New', monospace; letter-spacing: 3px; }
+
+      .glitch-cyan {
+        animation: glitchC 3s infinite steps(1);
+      }
+      .glitch-red {
+        animation: glitchR 3s infinite steps(1);
+      }
+      .main-text {
+        animation: mainflicker 6s infinite steps(1);
+      }
+      @keyframes glitchC {
+        0%, 84%   { transform: translate(0,0); opacity: 0; }
+        85%       { transform: translate(-4px,2px); opacity: 0.9; }
+        87%       { transform: translate(3px,-2px); opacity: 0.9; }
+        89%       { transform: translate(-2px,1px); opacity: 0.9; }
+        91%, 100% { transform: translate(0,0); opacity: 0; }
+      }
+      @keyframes glitchR {
+        0%, 84%   { transform: translate(0,0); opacity: 0; }
+        85%       { transform: translate(4px,-2px); opacity: 0.9; }
+        87%       { transform: translate(-3px,2px); opacity: 0.9; }
+        89%       { transform: translate(2px,-1px); opacity: 0.9; }
+        91%, 100% { transform: translate(0,0); opacity: 0; }
+      }
+      @keyframes mainflicker {
+        0%, 40%, 44%, 100% { opacity: 1; }
+        41%, 43% { opacity: 0.4; }
+        42% { opacity: 0.8; }
+      }
+      .cursor { animation: blink 1s infinite steps(1); }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+      .scan { animation: scanmove 8s linear infinite; }
+      @keyframes scanmove {
+        0% { transform: translateY(-20px); }
+        100% { transform: translateY(240px); }
+      }
+      .bar-slide { animation: barslide 4s ease-in-out infinite; }
+      @keyframes barslide {
+        0%, 100% { width: 180px; }
+        50% { width: 320px; }
+      }
+    </style>
+  </defs>
+
+  <!-- fond -->
+  <rect width="900" height="220" fill="#050505"/>
+
+  <!-- grille subtile -->
+  <g opacity="0.06" stroke="#00F0FF" stroke-width="1">
+    <line x1="0" y1="55" x2="900" y2="55"/>
+    <line x1="0" y1="110" x2="900" y2="110"/>
+    <line x1="0" y1="165" x2="900" y2="165"/>
+    <line x1="150" y1="0" x2="150" y2="220"/>
+    <line x1="450" y1="0" x2="450" y2="220"/>
+    <line x1="750" y1="0" x2="750" y2="220"/>
+  </g>
+
+  <!-- coins décoratifs jaunes style CP2077 -->
+  <g stroke="#FCEE0A" stroke-width="3" fill="none">
+    <path d="M 20 40 L 20 20 L 40 20"/>
+    <path d="M 880 40 L 880 20 L 860 20"/>
+    <path d="M 20 180 L 20 200 L 40 200"/>
+    <path d="M 880 180 L 880 200 L 860 200"/>
+  </g>
+
+  <!-- tag en haut -->
+  <text x="60" y="45" class="mono" font-size="13" fill="#00F0FF">&#47;&#47; SECOPS_ENGINEER v2.0.77</text>
+  <rect x="330" y="36" width="8" height="10" fill="#00F0FF" class="cursor"/>
+
+  <!-- glitch layers du titre -->
+  <text x="450" y="125" text-anchor="middle" class="base glitch-cyan" font-size="72" fill="#00F0FF">YUKOUF</text>
+  <text x="450" y="125" text-anchor="middle" class="base glitch-red" font-size="72" fill="#FF003C">YUKOUF</text>
+  <!-- titre principal -->
+  <text x="450" y="125" text-anchor="middle" class="base main-text" font-size="72" fill="#FCEE0A">YUKOUF</text>
+
+  <!-- barre animée sous le titre -->
+  <rect x="360" y="142" height="4" fill="#FF003C" class="bar-slide" width="180"/>
+
+  <!-- sous-titre -->
+  <text x="450" y="175" text-anchor="middle" class="mono" font-size="16" fill="#00F0FF">DETECTION &#8226; AUTOMATION &#8226; AI</text>
+
+  <!-- status en bas -->
+  <text x="60" y="200" class="mono" font-size="12" fill="#FCEE0A" opacity="0.8">[STATUS: NETRUNNING]</text>
+  <text x="840" y="200" text-anchor="end" class="mono" font-size="12" fill="#FF003C" opacity="0.8">NC-2077</text>
+
+  <!-- scanline qui descend -->
+  <rect x="0" y="0" width="900" height="3" fill="#00F0FF" opacity="0.15" class="scan"/>
+
+  <!-- bandes glitch horizontales statiques -->
+  <rect x="600" y="88" width="120" height="2" fill="#FF003C" opacity="0.5"/>
+  <rect x="180" y="118" width="90" height="2" fill="#00F0FF" opacity="0.5"/>
+</svg>
