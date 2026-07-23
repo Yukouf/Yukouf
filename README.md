@@ -86,5 +86,5 @@
 </p>
 
 <p align="center">
-  <sub><code>// NO FUTURE WITHOUT DETECTION — 2077</code></sub>
+  <sub><code>// Contact Me</code></sub>
 </p>
