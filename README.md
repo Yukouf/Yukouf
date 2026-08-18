@@ -7,9 +7,6 @@
 [![LinkedIn](https://img.shields.io/badge/Me%20contacter%20sur%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssefguerniou)
 [![Portfolio](https://img.shields.io/badge/Portfolio-2F81F7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://yukouf.github.io/portfolio/)
 
-![Disponibilité](https://img.shields.io/badge/Disponible-Octobre%202026%20%C2%B7%20CDI%20Blue%20Team-16A34A?style=flat-square)
-![Localisation](https://img.shields.io/badge/%C3%8Ele--de--France%20%C2%B7%20Luxembourg%20%C2%B7%20Suisse-0D1117?style=flat-square)
-
 <br>
 
 <sub>Je conçois des outils qui transforment des signaux bruts en décisions vérifiables — détection, audit, reporting — sans jamais retirer l'humain de la boucle.</sub>
