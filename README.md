@@ -4,9 +4,11 @@
 
 <br>
 
+[![LinkedIn](https://img.shields.io/badge/Me%20contacter%20sur%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssefguerniou)
 [![Portfolio](https://img.shields.io/badge/Portfolio-2F81F7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://yukouf.github.io/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssefguerniou)
-[![HackerOne](https://img.shields.io/badge/HackerOne-494649?style=for-the-badge&logo=hackerone&logoColor=white)](https://hackerone.com/yukouf)
+
+![Disponibilité](https://img.shields.io/badge/Disponible-Octobre%202026%20%C2%B7%20CDI%20Blue%20Team-16A34A?style=flat-square)
+![Localisation](https://img.shields.io/badge/%C3%8Ele--de--France%20%C2%B7%20Luxembourg%20%C2%B7%20Suisse-0D1117?style=flat-square)
 
 <br>
 
@@ -37,7 +39,7 @@ Chaque dépôt public suit la même exigence : **tests reproductibles**, **limit
 **Systèmes & Infrastructure**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Windows Server](https://img.shields.io/badge/Active_Directory-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=flat-square&logo=zabbix&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
@@ -53,39 +55,70 @@ Chaque dépôt public suit la même exigence : **tests reproductibles**, **limit
 **IA appliquée**
 
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Anthropic](https://img.shields.io/badge/LLM_APIs-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![PyTorch](https://img.shields.io/badge/LoRA_/_Fine--tuning-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LLM APIs](https://img.shields.io/badge/LLM_APIs-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![LoRA](https://img.shields.io/badge/LoRA_/_Fine--tuning-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 <br>
 
 ![](https://img.shields.io/badge/03-PROJETS-0D1117?style=for-the-badge&labelColor=2F81F7)
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/Yukouf/hardaudit">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Yukouf&repo=hardaudit&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2F81F7&icon_color=2F81F7&text_color=8B949E" />
-</a>
-<a href="https://github.com/Yukouf/dns-sentinel">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Yukouf&repo=dns-sentinel&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2F81F7&icon_color=2F81F7&text_color=8B949E" />
-</a>
+### HardAudit
 
-<a href="https://github.com/Yukouf/wazuh-cve-alerter-mail">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Yukouf&repo=wazuh-cve-alerter-mail&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2F81F7&icon_color=2F81F7&text_color=8B949E" />
-</a>
-<a href="https://github.com/Yukouf/agent-ia-soc">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Yukouf&repo=agent-ia-soc&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2F81F7&icon_color=2F81F7&text_color=8B949E" />
-</a>
+Audit de durcissement Linux lisible et exploitable, exécutable sans rien installer.
 
-</div>
+![](https://img.shields.io/badge/9_modules-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/20_tests-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/JSON-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/0_d%C3%A9pendance-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 
-<br>
+**[→ Voir le dépôt](https://github.com/Yukouf/hardaudit)**
 
-| Projet | Ce que ça prouve | Preuves |
-|:---|:---|:---|
-| **HardAudit** | Audit de durcissement Linux lisible et exploitable | `9 modules` `20 tests` `JSON` `0 dépendance` |
-| **DNS Sentinel** | Détection des divergences de résolution DNS / DoH | `9 tests` `DNSSEC` `score de risque` |
-| **Wazuh CVE Alerter** | Pipeline d'alerte CVE avec rappels J+3 / J+7 | `garde-fous` `remédiation jamais auto` |
-| **Agent IA SOC** | Webhook SOC à validation humaine obligatoire | `11 tests sécurité` `remédiation off` |
+</td>
+<td width="50%" valign="top">
+
+### DNS Sentinel
+
+Détection des divergences de résolution DNS entre résolveurs classiques et DoH.
+
+![](https://img.shields.io/badge/9_tests-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/DNSSEC-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/score_de_risque-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+
+**[→ Voir le dépôt](https://github.com/Yukouf/dns-sentinel)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Wazuh CVE Alerter
+
+Pipeline d'alerte email sur vulnérabilités critiques, avec rappels J+3 / J+7.
+
+![](https://img.shields.io/badge/garde--fous-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/rem%C3%A9diation_jamais_auto-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+
+**[→ Voir le dépôt](https://github.com/Yukouf/wazuh-cve-alerter-mail)**
+
+</td>
+<td width="50%" valign="top">
+
+### Agent IA SOC
+
+Webhook SOC avec validation humaine obligatoire via Telegram avant toute action.
+
+![](https://img.shields.io/badge/11_tests_s%C3%A9curit%C3%A9-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/rem%C3%A9diation_d%C3%A9sactiv%C3%A9e-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+
+**[→ Voir le dépôt](https://github.com/Yukouf/agent-ia-soc)**
+
+</td>
+</tr>
+</table>
 
 <details>
 <summary><b>Autres dépôts</b></summary>
@@ -122,22 +155,5 @@ Chaque dépôt public suit la même exigence : **tests reproductibles**, **limit
 > Le déterminisme décide. L'IA résume et priorise. L'humain valide.
 
 <br>
-
-![](https://img.shields.io/badge/05-ACTIVIT%C3%89-0D1117?style=for-the-badge&labelColor=2F81F7)
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yukouf&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2F81F7&text_color=8B949E" />
-
-</div>
-
-<br>
-
-![](https://img.shields.io/badge/06-CONTACT-0D1117?style=for-the-badge&labelColor=2F81F7)
-
-Ouvert aux opportunités **Blue Team · Detection Engineering · SOC** à partir d'**octobre 2026**.
-Île-de-France · Luxembourg · Suisse.
-
-[![LinkedIn](https://img.shields.io/badge/Me%20contacter%20sur%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssefguerniou)
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2F81F7,50:1E3A8A,100:0D1117&height=6&section=footer" width="100%" />
