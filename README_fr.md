@@ -66,97 +66,42 @@ Chaque dépôt public suit la même exigence : **tests reproductibles**, **limit
 
 ![](https://img.shields.io/badge/03-PROJETS-0D1117?style=for-the-badge&labelColor=2F81F7)
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### HardAudit
-
-Audit de durcissement Linux lisible et exploitable, exécutable sans rien installer.
-
-![](https://img.shields.io/badge/9_modules-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-![](https://img.shields.io/badge/20_tests-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-![](https://img.shields.io/badge/JSON-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-![](https://img.shields.io/badge/0_d%C3%A9pendance-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-
-**[→ Voir le dépôt](https://github.com/Yukouf/hardaudit)**
-
-</td>
-<td width="50%" valign="top">
-
-### DNS Sentinel
-
-Détection des divergences de résolution DNS entre résolveurs classiques et DoH.
-
-![](https://img.shields.io/badge/9_tests-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-![](https://img.shields.io/badge/DNSSEC-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-![](https://img.shields.io/badge/score_de_risque-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-
-**[→ Voir le dépôt](https://github.com/Yukouf/dns-sentinel)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### Wazuh CVE Alerter
 
-Pipeline d'alerte email sur vulnérabilités critiques, avec rappels J+3 / J+7.
+Alertes email pour les CVE critiques detectees par Wazuh : rappels J+3 et J+7, verrou anti-doublon, aucune dependance externe.
 
-![](https://img.shields.io/badge/garde--fous-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-![](https://img.shields.io/badge/rem%C3%A9diation_jamais_auto-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/CVE_critiques-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/Rappels_J%2B3_/_J%2B7-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/Verrou_anti--doublon-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/Zero_dependance-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 
-**[→ Voir le dépôt](https://github.com/Yukouf/wazuh-cve-alerter-mail)**
-
-</td>
-<td width="50%" valign="top">
-
-### Agent IA SOC
-
-Webhook SOC avec validation humaine obligatoire via Telegram avant toute action.
-
-![](https://img.shields.io/badge/11_tests_s%C3%A9curit%C3%A9-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-![](https://img.shields.io/badge/rem%C3%A9diation_d%C3%A9sactiv%C3%A9e-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
-
-**[→ Voir le dépôt](https://github.com/Yukouf/agent-ia-soc)**
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>Autres dépôts</b></summary>
+**[→ Voir le depot](https://github.com/Yukouf/wazuh-cve-alerter-mail)**
 
 <br>
 
-| Projet | Description |
-|:---|:---|
-| [Zabbix Auto Report AI](https://github.com/Yukouf/zabbix-auto-report-ai) | Reporting de supervision automatisé (Excel), référentiel déterministe, synthèse par IA locale |
-| [AutoApply Studio](https://github.com/Yukouf/autoapply-studio) | Adaptation locale de CV et lettres — n'invente rien, ne soumet rien. 13 tests TAP |
-| [AutoApply Extension](https://github.com/Yukouf/autoapply-extension) | Pré-remplissage Chrome FR/EN, sans soumission automatique |
-| [Fine-Tuning CPU](https://github.com/Yukouf/fine-tuning-cpu) | Démonstration Seq2Seq / LoRA sur CPU, dataset SOC contrôlé |
+### Rapport Wazuh
 
-</details>
+Reporting des alertes Wazuh avec tri SOC : sortie Excel, analyse IA locale et PDF en option, envoi email configurable.
+
+![](https://img.shields.io/badge/Tri_SOC-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/Excel-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/IA_locale_optionnelle-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/Email_configurable-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+
+**[→ Voir le depot](https://github.com/Yukouf/script-wazuh-rapport)**
 
 <br>
 
-![](https://img.shields.io/badge/04-ARCHITECTURE-0D1117?style=for-the-badge&labelColor=2F81F7)
+### Zabbix Auto Report AI
 
-```
-   Alertes · logs · télémétrie système
-                  │
-                  ▼
-   Collecte  ──►  Normalisation  ──►  Règles déterministes
-                                              │
-                                              ▼
-                                     Analyse assistée (IA locale)
-                                              │
-                  ┌───────────────────────────┘
-                  ▼
-   Preuves, tests, journalisation  ──►  Validation humaine  ──►  Rapport
-```
+Reporting Zabbix hebdomadaire : referentiel deterministe, sortie Excel et analyse par IA locale pour les cas inconnus.
 
-> Le déterminisme décide. L'IA résume et priorise. L'humain valide.
+![](https://img.shields.io/badge/Hebdomadaire-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/Referentiel_deterministe-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/Excel-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+![](https://img.shields.io/badge/IA_locale-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
+
+**[→ Voir le depot](https://github.com/Yukouf/zabbix-auto-report-ai)**
 
 <br>
 
