@@ -6,7 +6,7 @@ Analyste cybersécurité. Je fais de la détection, de l'automatisation SOC (Waz
 
 **Projets**
 
-- [agent-ia-soc](https://github.com/Yukouf/agent-ia-soc) : agent SOC branché sur Wazuh, qui trie chaque alerte avec un LLM et demande une validation humaine sur Telegram avant de bloquer une IP
+- [soc-triage-agent](https://github.com/Yukouf/soc-triage-agent) : agent SOC branché sur Wazuh, qui trie chaque alerte avec un LLM et demande une validation humaine sur Telegram avant de bloquer une IP
 - [wazuh-cve-alerter-mail](https://github.com/Yukouf/wazuh-cve-alerter-mail) : alerte par email sur les CVE critiques détectées par Wazuh
 - [script-wazuh-rapport](https://github.com/Yukouf/script-wazuh-rapport) : rapport Excel des alertes Wazuh, avec tri SOC
 - [zabbix-auto-report-ai](https://github.com/Yukouf/zabbix-auto-report-ai) : rapport Zabbix hebdomadaire en Excel

@@ -6,7 +6,7 @@ Cybersecurity analyst. I work on detection, SOC automation (Wazuh, Zabbix) and A
 
 **Projects**
 
-- [agent-ia-soc](https://github.com/Yukouf/agent-ia-soc): a SOC agent wired to Wazuh that triages each alert with an LLM and asks for human approval on Telegram before blocking an IP
+- [soc-triage-agent](https://github.com/Yukouf/soc-triage-agent): a SOC agent wired to Wazuh that triages each alert with an LLM and asks for human approval on Telegram before blocking an IP
 - [wazuh-cve-alerter-mail](https://github.com/Yukouf/wazuh-cve-alerter-mail): emails you about critical CVEs found by Wazuh
 - [script-wazuh-rapport](https://github.com/Yukouf/script-wazuh-rapport): Excel report of Wazuh alerts with SOC triage
 - [zabbix-auto-report-ai](https://github.com/Yukouf/zabbix-auto-report-ai): weekly Zabbix report in Excel
