@@ -15,7 +15,7 @@
 
 <br>
 
-<sub>Tools that turn raw signals into verifiable decisions: detection, audit, reporting, without ever removing the human from the loop.</sub>
+<sub>I build detection, audit and reporting tools. They sort the noise, a human makes the call.</sub>
 
 </div>
 
@@ -23,9 +23,9 @@
 
 ![](https://img.shields.io/badge/01-POSITIONNEMENT-0D1117?style=for-the-badge&labelColor=2F81F7)
 
-Cybersecurity analyst focused on **detection and defensive engineering**. Three priorities: reduce alert noise without losing signal, make security auditing reproducible, industrialize reporting.
+I'm a cybersecurity analyst focused on **detection and defensive engineering**. What I care about: less alert noise, audits you can rerun, reports that write themselves.
 
-Every public repository follows the same standard: **reproducible tests**, **documented limits**, **no automatic destructive action**.
+Every public repo ships with **tests**, **spells out its limits**, and **never runs anything destructive without a human saying yes**.
 
 <br>
 
@@ -67,7 +67,7 @@ Every public repository follows the same standard: **reproducible tests**, **doc
 
 ### Wazuh CVE Alerter
 
-Email alert pipeline for critical vulnerabilities detected by Wazuh: day 3 and day 7 reminders, anti-duplicate lock, no external dependency.
+Sends an email when Wazuh finds a critical CVE, then follows up on day 3 and day 7. No duplicates, no external dependencies.
 
 ![](https://img.shields.io/badge/Critical_CVEs-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/D%2B3_/_D%2B7_reminders-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
@@ -80,7 +80,7 @@ Email alert pipeline for critical vulnerabilities detected by Wazuh: day 3 and d
 
 ### Wazuh Reporting
 
-Wazuh alert reporting with SOC triage: Excel output, optional local AI analysis and PDF, configurable email delivery.
+Sorts Wazuh alerts the way a SOC analyst would and outputs an Excel file. Local AI analysis, PDF export and email delivery are optional.
 
 ![](https://img.shields.io/badge/SOC_triage-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/Excel-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
@@ -93,7 +93,7 @@ Wazuh alert reporting with SOC triage: Excel output, optional local AI analysis 
 
 ### Zabbix Auto Report AI
 
-Weekly Zabbix reporting: deterministic reference data, Excel output, and local AI analysis for unknown cases.
+A weekly Zabbix report in Excel. A fixed reference table handles known cases, and the local AI only deals with the rest.
 
 ![](https://img.shields.io/badge/Weekly-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/Deterministic_reference-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
