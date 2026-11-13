@@ -10,5 +10,6 @@ Cybersecurity analyst. I work on detection, SOC automation (Wazuh, Zabbix) and A
 - [script-wazuh-rapport](https://github.com/Yukouf/script-wazuh-rapport): Excel report of Wazuh alerts with SOC triage
 - [zabbix-auto-report-ai](https://github.com/Yukouf/zabbix-auto-report-ai): weekly Zabbix report in Excel
 - [extension-lvm-ubuntu](https://github.com/Yukouf/extension-lvm-ubuntu): extend an LVM volume on Ubuntu without downtime
+- [wazuh-guide-fr](https://github.com/Yukouf/wazuh-guide-fr): a hands-on Wazuh guide in French, with screenshots
 
 [LinkedIn](https://www.linkedin.com/in/youssefguerniou)
