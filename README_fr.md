@@ -15,7 +15,7 @@
 
 <br>
 
-<sub>Je conçois des outils qui transforment des signaux bruts en décisions vérifiables — détection, audit, reporting — sans jamais retirer l'humain de la boucle.</sub>
+<sub>Je fabrique des outils de détection, d'audit et de reporting. Ils font le tri, l'humain garde la décision.</sub>
 
 </div>
 
@@ -23,9 +23,9 @@
 
 ![](https://img.shields.io/badge/01-POSITIONNEMENT-0D1117?style=for-the-badge&labelColor=2F81F7)
 
-Analyste cybersécurité orienté **détection et ingénierie défensive**. Trois axes : réduire le bruit d'alerte sans perdre de signal, rendre l'audit de sécurité reproductible, industrialiser le reporting.
+Je suis analyste cybersécurité, spécialisé en **détection et ingénierie défensive**. Ce qui m'intéresse : moins de bruit dans les alertes, des audits qu'on peut rejouer, des rapports qui se font tout seuls.
 
-Chaque dépôt public suit la même exigence : **tests reproductibles**, **limites documentées**, **aucune action destructive automatique**.
+Mes dépôts publics ont tous des **tests**, leurs **limites sont écrites noir sur blanc**, et **rien de destructif ne se lance sans validation**.
 
 <br>
 
@@ -67,40 +67,40 @@ Chaque dépôt public suit la même exigence : **tests reproductibles**, **limit
 
 ### Wazuh CVE Alerter
 
-Alertes email pour les CVE critiques detectees par Wazuh : rappels J+3 et J+7, verrou anti-doublon, aucune dependance externe.
+Envoie un email quand Wazuh détecte une CVE critique, puis relance à J+3 et J+7. Pas de doublons, aucune dépendance externe.
 
 ![](https://img.shields.io/badge/CVE_critiques-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/Rappels_J%2B3_/_J%2B7-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/Verrou_anti--doublon-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/Zero_dependance-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 
-**[→ Voir le depot](https://github.com/Yukouf/wazuh-cve-alerter-mail)**
+**[→ Voir le dépôt](https://github.com/Yukouf/wazuh-cve-alerter-mail)**
 
 <br>
 
 ### Rapport Wazuh
 
-Reporting des alertes Wazuh avec tri SOC : sortie Excel, analyse IA locale et PDF en option, envoi email configurable.
+Trie les alertes Wazuh comme le ferait un analyste SOC et sort un fichier Excel. L'analyse par IA locale, le PDF et l'envoi par email sont en option.
 
 ![](https://img.shields.io/badge/Tri_SOC-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/Excel-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/IA_locale_optionnelle-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/Email_configurable-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 
-**[→ Voir le depot](https://github.com/Yukouf/script-wazuh-rapport)**
+**[→ Voir le dépôt](https://github.com/Yukouf/script-wazuh-rapport)**
 
 <br>
 
 ### Zabbix Auto Report AI
 
-Reporting Zabbix hebdomadaire : referentiel deterministe, sortie Excel et analyse par IA locale pour les cas inconnus.
+Un rapport Zabbix en Excel chaque semaine. Un référentiel fixe gère les cas connus, l'IA locale ne traite que le reste.
 
 ![](https://img.shields.io/badge/Hebdomadaire-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/Referentiel_deterministe-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/Excel-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 ![](https://img.shields.io/badge/IA_locale-0D1117?style=flat-square&labelColor=2F81F7&color=161B22)
 
-**[→ Voir le depot](https://github.com/Yukouf/zabbix-auto-report-ai)**
+**[→ Voir le dépôt](https://github.com/Yukouf/zabbix-auto-report-ai)**
 
 <br>
 
