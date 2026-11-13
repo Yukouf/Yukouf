@@ -12,7 +12,6 @@
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/Me%20contacter%20sur%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssefguerniou)
-[![Portfolio](https://img.shields.io/badge/Portfolio-2F81F7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://yukouf.github.io/portfolio/)
 
 <br>
 
