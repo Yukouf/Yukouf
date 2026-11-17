@@ -2,7 +2,7 @@
 
 # Youssef Guerniou
 
-Analyste cybersécurité. Détection, automatisation SOC (Wazuh, Zabbix) et sécurité de l'IA.
+Cybersécurité, systèmes et développement. J'aime comprendre, construire et améliorer les outils du quotidien.
 
 ### Projets
 
