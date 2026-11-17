@@ -1,24 +1,42 @@
-[English](README.md) · [Français](README_fr.md)
+<h1 align="center">Youssef Guerniou</h1>
 
-# Youssef Guerniou
+<p align="center">
+  Cybersecurity &nbsp; · &nbsp; Systems &nbsp; · &nbsp; Software development
+</p>
 
-Cybersecurity, systems and software development. I enjoy understanding, building and improving everyday tools.
+<p align="center">
+  <sub>I enjoy understanding, building and improving everyday tools.</sub>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/youssefguerniou">LinkedIn ↗</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <strong>English</strong> &nbsp;/&nbsp; <a href="README_fr.md">Français</a>
+</p>
+
+<br>
 
 ### Projects
 
-| Project | Purpose |
-| --- | --- |
-| [SOC Triage Agent](https://github.com/Yukouf/soc-triage-agent) | Wazuh alert triage with an LLM and human approval on Telegram. |
-| [Wazuh CVE Alerter](https://github.com/Yukouf/wazuh-cve-alerter-mail) | Email alerts for critical vulnerabilities detected by Wazuh. |
-| [Wazuh Reports](https://github.com/Yukouf/script-wazuh-rapport) | Excel reports of Wazuh alerts with SOC triage. |
-| [Zabbix Auto Report](https://github.com/Yukouf/zabbix-auto-report-ai) | Weekly Zabbix monitoring reports in Excel. |
-| [Ubuntu LVM](https://github.com/Yukouf/extension-lvm-ubuntu) | Extend an LVM volume without downtime. |
-| [Wazuh Guide](https://github.com/Yukouf/wazuh-guide-fr) | A practical guide in French, with screenshots. |
+<table>
+  <thead>
+    <tr><th align="left" width="32%">Project</th><th align="left">At a glance</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="https://github.com/Yukouf/soc-triage-agent"><strong>SOC Triage Agent</strong></a></td><td>Wazuh alert triage with an LLM and human approval.</td></tr>
+    <tr><td><a href="https://github.com/Yukouf/wazuh-cve-alerter-mail"><strong>Wazuh CVE Alerter</strong></a></td><td>Email alerts for critical vulnerabilities.</td></tr>
+    <tr><td><a href="https://github.com/Yukouf/script-wazuh-rapport"><strong>Wazuh Reports</strong></a></td><td>Excel reports with SOC triage.</td></tr>
+    <tr><td><a href="https://github.com/Yukouf/zabbix-auto-report-ai"><strong>Zabbix Auto Report</strong></a></td><td>Weekly monitoring reports in Excel.</td></tr>
+    <tr><td><a href="https://github.com/Yukouf/extension-lvm-ubuntu"><strong>Ubuntu LVM</strong></a></td><td>Extend a volume without downtime.</td></tr>
+    <tr><td><a href="https://github.com/Yukouf/wazuh-guide-fr"><strong>Wazuh Guide</strong></a></td><td>A practical guide in French, with screenshots.</td></tr>
+  </tbody>
+</table>
 
 ### Side project
 
-| Project | Purpose |
-| --- | --- |
-| [ClearPods](https://github.com/Yukouf/ClearPods) | AirPods microphone and stereo sound on Windows. Based on WPods. |
-
-[LinkedIn](https://www.linkedin.com/in/youssefguerniou)
+<table>
+  <tr>
+    <td width="32%"><a href="https://github.com/Yukouf/ClearPods"><strong>ClearPods ↗</strong></a><br><sub>Windows · C# · TypeScript</sub></td>
+    <td>AirPods microphone and stereo sound, together on Windows.<br><sub>Based on <a href="https://github.com/FPNDev/wpods">WPods</a>.</sub></td>
+  </tr>
+</table>
