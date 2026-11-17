@@ -13,4 +13,8 @@ Analyste cybersécurité. Je fais de la détection, de l'automatisation SOC (Waz
 - [extension-lvm-ubuntu](https://github.com/Yukouf/extension-lvm-ubuntu) : étendre un volume LVM sur Ubuntu sans arrêter la machine
 - [wazuh-guide-fr](https://github.com/Yukouf/wazuh-guide-fr) : guide pratique de Wazuh en français, avec captures
 
+**Projet annexe**
+
+- [ClearPods](https://github.com/Yukouf/ClearPods) : utiliser le micro des AirPods sur Windows en gardant le son stéréo pour Discord, les jeux et les appels. Basé sur WPods.
+
 [LinkedIn](https://www.linkedin.com/in/youssefguerniou)
