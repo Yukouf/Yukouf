@@ -2,19 +2,23 @@
 
 # Youssef Guerniou
 
-Analyste cybersécurité. Je fais de la détection, de l'automatisation SOC (Wazuh, Zabbix) et de la sécurité de l'IA.
+Analyste cybersécurité. Détection, automatisation SOC (Wazuh, Zabbix) et sécurité de l'IA.
 
-**Projets**
+### Projets
 
-- [soc-triage-agent](https://github.com/Yukouf/soc-triage-agent) : agent SOC branché sur Wazuh, qui trie chaque alerte avec un LLM et demande une validation humaine sur Telegram avant de bloquer une IP
-- [wazuh-cve-alerter-mail](https://github.com/Yukouf/wazuh-cve-alerter-mail) : alerte par email sur les CVE critiques détectées par Wazuh
-- [script-wazuh-rapport](https://github.com/Yukouf/script-wazuh-rapport) : rapport Excel des alertes Wazuh, avec tri SOC
-- [zabbix-auto-report-ai](https://github.com/Yukouf/zabbix-auto-report-ai) : rapport Zabbix hebdomadaire en Excel
-- [extension-lvm-ubuntu](https://github.com/Yukouf/extension-lvm-ubuntu) : étendre un volume LVM sur Ubuntu sans arrêter la machine
-- [wazuh-guide-fr](https://github.com/Yukouf/wazuh-guide-fr) : guide pratique de Wazuh en français, avec captures
+| Projet | Objectif |
+| --- | --- |
+| [SOC Triage Agent](https://github.com/Yukouf/soc-triage-agent) | Tri des alertes Wazuh par LLM et validation humaine sur Telegram. |
+| [Wazuh CVE Alerter](https://github.com/Yukouf/wazuh-cve-alerter-mail) | Alertes par email sur les vulnérabilités critiques détectées par Wazuh. |
+| [Rapports Wazuh](https://github.com/Yukouf/script-wazuh-rapport) | Rapports Excel des alertes Wazuh avec tri SOC. |
+| [Zabbix Auto Report](https://github.com/Yukouf/zabbix-auto-report-ai) | Rapports de supervision Zabbix hebdomadaires en Excel. |
+| [Ubuntu LVM](https://github.com/Yukouf/extension-lvm-ubuntu) | Extension d'un volume LVM sans interruption. |
+| [Guide Wazuh](https://github.com/Yukouf/wazuh-guide-fr) | Guide pratique en français, avec captures. |
 
-**Projet annexe**
+### Projet annexe
 
-- [ClearPods](https://github.com/Yukouf/ClearPods) : utiliser le micro des AirPods sur Windows en gardant le son stéréo pour Discord, les jeux et les appels. Basé sur WPods.
+| Projet | Objectif |
+| --- | --- |
+| [ClearPods](https://github.com/Yukouf/ClearPods) | Micro des AirPods et son stéréo sur Windows. Basé sur WPods. |
 
 [LinkedIn](https://www.linkedin.com/in/youssefguerniou)
