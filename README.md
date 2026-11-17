@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/terminal-banner.gif" alt="Yukouf — animated terminal" width="100%">
-</p>
-
 <h1 align="center">Youssef Guerniou</h1>
 
 <p align="center">
