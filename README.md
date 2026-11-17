@@ -2,7 +2,7 @@
 
 # Youssef Guerniou
 
-Cybersecurity analyst. Detection, SOC automation (Wazuh, Zabbix) and AI security.
+Cybersecurity, systems and software development. I enjoy understanding, building and improving everyday tools.
 
 ### Projects
 
