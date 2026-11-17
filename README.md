@@ -13,4 +13,8 @@ Cybersecurity analyst. I work on detection, SOC automation (Wazuh, Zabbix) and A
 - [extension-lvm-ubuntu](https://github.com/Yukouf/extension-lvm-ubuntu): extend an LVM volume on Ubuntu without downtime
 - [wazuh-guide-fr](https://github.com/Yukouf/wazuh-guide-fr): a hands-on Wazuh guide in French, with screenshots
 
+**Side project**
+
+- [ClearPods](https://github.com/Yukouf/ClearPods): use the AirPods microphone on Windows while keeping stereo sound for Discord, games and calls. Based on WPods.
+
 [LinkedIn](https://www.linkedin.com/in/youssefguerniou)
