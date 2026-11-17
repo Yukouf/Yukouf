@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Yukouf — Cybersecurity · AI · Automation" width="100%">
+</p>
+
 <h1 align="center">Youssef Guerniou</h1>
 
 <p align="center">
