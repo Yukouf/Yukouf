@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-motion.gif" alt="Yukouf — Cybersecurity · AI · Automation" width="100%">
+  <img src="assets/terminal-banner.gif" alt="Yukouf — animated terminal" width="100%">
 </p>
 
 <h1 align="center">Youssef Guerniou</h1>
